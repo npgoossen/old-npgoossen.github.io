@@ -12,6 +12,18 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Butler';
+  font-style: normal;
+  src: url('../fonts/Butler_Bold.otf') format("otf");
+}
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  src: url('../fonts/Karla-Regular.ttf') format("ttf");
+}
+
+
 .mouse-wrap, .scroll-wrap {
   position: absolute;
   bottom: 50px;
@@ -1289,7 +1301,7 @@ a {
     height: 2px;
     width: 50px;
     content: "";
-    background: #1d82ff; }
+    background: #1e1c1c; }
   .heading-border-top.light:before {
     background: rgba(255, 255, 255, 0.7) !important; }
 
